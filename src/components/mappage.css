@@ -1,0 +1,7 @@
+.bg-map-img{
+    object-fit: cover;
+    height: 100vh;
+}
+body{
+    box-sizing: border-box;
+}
