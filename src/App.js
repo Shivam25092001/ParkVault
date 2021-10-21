@@ -6,8 +6,8 @@ import { Mappage } from './components/mappage';
 function App() {
   return (
     <>
-      <Mappage />
-      <Firstpage />
+      {/* <Mappage /> */}
+      {/* <Firstpage /> */}
     </>
   );
 }
