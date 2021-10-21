@@ -1,0 +1,25 @@
+.floor{
+    width: 80vw;
+    height: 30vh;
+    align-self: center;
+    margin: 2vh;
+}
+.slots{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-row: auto auto;
+}
+.slot{
+    background-color: turquoise;
+    width: 10vw;
+    min-height: 10vh;
+    margin-top: 3vh;
+    margin-left: 2vw;
+}
+.floor-num{
+    color: #44617B;
+}
+.active{
+    border-radius: 0.3rem;
+    border: 2px solid #44617B;
+}

@@ -1,6 +1,7 @@
 import './App.css';
 import Firstpage from './components/Firstpage';
 import { Mappage } from './components/mappage';
+import Slotpreference from './components/Slotpreference'
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       {/* <Mappage /> */}
       {/* <Firstpage /> */}
+      <Slotpreference />
     </>
   );
 }
