@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.headerc{
+    height: 10vh;
+}
+.bodee{
+    display: flex;
+    flex-direction: column;
+    background: #E0E0E0;
+    height: 90vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    
+}
+.drive h1{
+    width: 16.56rem;
+height: 8.43rem;
+margin-left: 10vw;
+padding-top: 10vh;
+left: 58px;
+top: 154px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 2.2rem;
+line-height: 118.19%;
+
+
+letter-spacing: 0.105em;
+
+color: #000000;
+
+}
+.cars{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+}
+.car1{
+    cursor: pointer;
+width: 70vw;
+height: 11vh;
+background: #C4C4C4;
+border-radius: 9px;
+display: flex;
+flex-direction: column;
+text-decoration: none;
+
+}
+.car1 .carname p{
+width: 15.3rem;
+height: 1.68rem;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 1.12rem;
+line-height: 118.19%;
+letter-spacing: 0.15em;
+margin-top: 1.6vh;
+margin-left: 3vw;
+color: #000000;
+text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.car1 .carnmbr p{
+    width: 15.3rem;
+    height: 1.68rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 1.12rem;
+    line-height: 118.19%;
+    letter-spacing: 0.15em;
+    margin-top: 1vh;
+    margin-left: 3vw;
+    color: #000000;
+    text-decoration: none;
+    }
+    .car2{
+        cursor: pointer;
+        width: 70vw;
+        height: 11vh;
+        background: #C4C4C4;
+        border-radius: 9px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 6vh;
+        
+        }
+        .car2 .carname p{
+        width: 15.3rem;
+        height: 1.68rem;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.12rem;
+        line-height: 118.19%;
+        letter-spacing: 0.15em;
+        margin-top: 1.6vh;
+        margin-left: 3vw;
+        color: #000000;
+        }
+        .car2 .carnmbr p{
+            width: 15.3rem;
+            height: 1.68rem;
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: bolder;
+            font-size: 1.12rem;
+            line-height: 118.19%;
+            letter-spacing: 0.15em;
+            margin-top: 1vh;
+            margin-left: 3vw;
+            color: #000000;
+            }
+            .addAcar{
+                display: flex;
+                margin-top: 5vh;
+                margin-left: 14vw;
+            }
+.addAcar a{
+ width: 16.2rem;
+height: 1.8rem;
+text-decoration: none;
+font-family: 'Roboto', sans-serif;
+padding: 0;
+font-style: normal;
+font-weight: 300;
+font-size: 1.12rem;
+line-height: 118.19%;
+letter-spacing: 0.025em;
+color: #388000;
+}
+#clicka{
+    border-bottom: 5px solid #F1AE00;
+}
+#clickb{
+    border-bottom: 5px solid #F1AE00;
+}
