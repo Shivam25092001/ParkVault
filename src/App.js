@@ -9,13 +9,14 @@ import Qr from './components/Qr';
 function App() {
   return (
     <>
-      <Mappage />
+      {/* <Login/> */}
+      {/* <Mappage /> */}
       {/* <Firstpage /> */}
-    {/* <Qr text ="HR32BGBADMASHIKASHETRA" /> */}
+      {/* <Qr text ="HR32BGBADMASHIKASHETRA" /> */}
       {/* <Mappage /> */}
       {/* <Payment /> */}
       {/* <Slotpreference /> */}
-      {/* <Login/> */}
+      
     </>
   );
 }

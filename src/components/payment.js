@@ -52,8 +52,8 @@ function Payment() {
                             <div className="uper"><p>
                                 Net banking</p></div>
                             <div className="niche">
-                                <img src="./images/user-flow.png" alt="" />
-                                <p>Net Banking</p>
+                                <img src="./images/payment/bank.png" id="bank-img" alt="" />
+                                <p id="NB">Net Banking</p>
                             </div>
                         </div>
                         <div className="typepay" id={card ? "card" : ""} onClick={() => {
@@ -67,10 +67,10 @@ function Payment() {
                                     <p className="orangish">ADD  NEW CARD</p>
                                 </div>
                                 <div className="ico">
-                                    <img src="./images/user-flow.png" alt="" />
-                                    <img src="./images/user-flow.png" alt="" />
-                                    <img src="./images/user-flow.png" alt="" />
-                                    <img src="./images/user-flow.png" alt="" /></div>
+                                    <img src="./images/payment/card.svg" id="n-card" alt="" />
+                                    <img src="./images/payment/master.png" alt="" />
+                                    <img src="./images/payment/visa.png" id="visa" alt="" />
+                                    <img src="./images/payment/rupay.png" alt="" /></div>
                             </div>
                         </div>
                         <div className="typepay" id={upi ? "upi" : ""} onClick={() => {
@@ -84,10 +84,10 @@ function Payment() {
                                     <p className="orangish">ADD  A NEW UPI</p>
                                 </div>
                                 <div className="ico">
-                                    <img src="./images/user-flow.png" alt="" />
-                                    <img src="./images/user-flow.png" alt="" />
-                                    <img src="./images/user-flow.png" alt="" />
-                                    <img src="./images/user-flow.png" alt="" /></div>
+                                    <img src="./images/payment/gpay.png" alt="" />
+                                    <img src="./images/payment/bhim.png" alt="" />
+                                    <img src="./images/payment/phonepe.png" alt="" />
+                                    <img src="./images/payment/pocket.png" alt="" /></div>
                             </div>
                         </div>
                         <div className="typepay" id={wallet ? "wallet" : ""} onClick={() => {
@@ -104,7 +104,7 @@ function Payment() {
                             setcash(!cash);
                         }}>
                             <div className="nicheee">
-                                <img src="./images/user-flow.png" alt="" />
+                                <img src="./images/payment/cash.png" id="cash" alt="" />
                                 <p>Cash</p>
                             </div>
                         </div>

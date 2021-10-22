@@ -76,6 +76,7 @@
     width: 90vw;
     margin-left: 3.5vw;
     margin-top: 6vh ;
+    margin-bottom: 5vh;
     height: 4vh;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
@@ -151,4 +152,17 @@
 .nmp .orangish {
     color: orange;
     font-weight: bold;
+}
+.ico #visa{
+    height: 2.5vh;
+}
+.ico #n-card{
+    height:3.5vh;
+}
+#bank-img{
+    height: 2.5vh;
+}
+#NB{
+    position: relative;
+    top: -0.90vh;
 }
