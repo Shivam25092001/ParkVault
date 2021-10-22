@@ -20,7 +20,7 @@ export default function Slotpreference() {
             <button className={`ss-button ${sssel?'ss-button-active':''}`} onClick={selectpressed}>Select Slot</button>
             <input type="text" name="time" id="time" placeholder="  Enter expected time"/>
             <Link to="/gopark">
-                <button className="pref-submit" type="submit">Submit</button>
+                <div className="pref-submit">Submit</div>
             </Link>
         </div>
     )
