@@ -5,7 +5,7 @@ import { Mappage } from './components/mappage';
 import Payment from './components/payment';
 import Slotpreference from './components/Slotpreference'
 import Qr from './components/Qr';
-
+import Gopark from './components/Gopark';
 function App() {
   return (
     <>
@@ -16,6 +16,7 @@ function App() {
       {/* <Mappage /> */}
       {/* <Payment /> */}
       {/* <Slotpreference /> */}
+      <Gopark />
       
     </>
   );
