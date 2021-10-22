@@ -2,6 +2,8 @@ import './App.css';
 import Firstpage from './components/Firstpage';
 import { Mappage } from './components/mappage';
 import Payment from './components/payment';
+import Slotpreference from './components/Slotpreference'
+
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       {/* <Mappage /> */}
       <Firstpage />
       {/* <Payment /> */}
+      {/* <Firstpage /> */}
+      {/* <Slotpreference /> */}
     </>
   );
 }
