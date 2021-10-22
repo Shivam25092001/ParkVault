@@ -62,10 +62,10 @@ function Firstpage() {
                 </div>
                 <div className="addCar">
                     <form action=""onSubmit={submit} >
-                        <input type="text" placeholder ="Enter car name" value ={name} onChange={(e)=>setname(e.target.value)} />
-                        <input type="text" placeholder = "Enter car number" value={num} onChange={(e)=>setnum(e.target.value)}/>
+                        <input className="username" type="text" placeholder ="Enter car name" value ={name} onChange={(e)=>setname(e.target.value)} />
+                        <input className="username" type="text" placeholder = "Enter car number" value={num} onChange={(e)=>setnum(e.target.value)}/>
                         <br />
-                        <button type = "submit">Add Car +</button>
+                        <button className ="lo" type = "submit">Add Car +</button>
                     </form>
                 </div>
             </div>

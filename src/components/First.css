@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: column;
     background: #E0E0E0;
-    min-height: 90vh;
+    min-height: 150vh;
     margin-left: 4vw;
     margin-right: 4vw;
     
@@ -132,26 +132,30 @@ a{
   }
 .addCar input{
     font-family: 'Roboto', sans-serif;
-    height: 4vh;
+    height: 6vh;
     width: 70vw;
     margin-left: 10vw;
-    border-radius: 8px;
     padding-left: 1vw;
     border: none;
     align-self: center;
     justify-self: center;
     margin-bottom: 2vh;
+    border-bottom: 2px solid white;
+    box-shadow: 0 0 0 0;
     background-color: #e0e0e011;
+    border-radius: 0px;
 }
-.addCar button{
-    background-color: #388000;
-    color: white;
-    height: 4vh;
-    width: 50vw;
-    border-radius: 5px;
+
+.lo{
     border: none;
+    color: #388000;
+    height: 5vh;
+    background-color: #E0E0E0;
+    width: 50vw;
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
     margin-left: 20vw;
-    margin-top: 3vh;
+    margin-top: 2vh;
 }
 .burger{
     z-index: 15;

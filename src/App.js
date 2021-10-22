@@ -11,12 +11,12 @@ function App() {
     <>
       {/* <Login/> */}
       {/* <Mappage /> */}
-      {/* <Firstpage /> */}
+      <Firstpage />
       {/* <Qr text ="HR32BGBADMASHIKASHETRA" /> */}
       {/* <Mappage /> */}
       {/* <Payment /> */}
       {/* <Slotpreference /> */}
-      <Gopark />
+      {/* <Gopark /> */}
       
     </>
   );
