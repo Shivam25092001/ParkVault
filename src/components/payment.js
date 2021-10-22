@@ -11,8 +11,16 @@ function Payment() {
     const [cash, setcash] = useState(false);
     return (
         <div className="paycont">
-            <div className="headerc">
+             <div className="headerc">
                 <img src="./images/logo3.png" alt="" />
+                <div className={ tog?"hidden":"links"}>
+                        <img src="./images/acount.png" alt="" />
+                        <a href="/all">MY CARS</a>
+                        <a href="/frequent">PAYMENTS</a>
+                        <a href="/cars">HELP</a>
+                        <a href="/bikes">ABOUT US</a>
+                        <a href="/hardware" id ="signol">Log Out</a>
+                    </div>
                 <div className="burger" id={tg ? "toggl" : ""} onClick={() => {
                     setTog(!tog);
                     setTg(!tg)
@@ -29,7 +37,7 @@ function Payment() {
                 </div>
                 <div className="time">
                     <div className="pti">
-                    <i class="far fa-clock"></i>
+                    <i className="far fa-clock"></i>
                         <div className="thp">
                             <p id ="dark">Time Parked (hrs:min | hrs :min)</p>
                             <p id = "light">16:54 | 18:31 IST </p>
