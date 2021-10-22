@@ -31,6 +31,14 @@ function Firstpage() {
         <div className="cont">
             <div className="headerc">
                 <img src="./images/logo3.png" alt="" />
+                <div className={ tog?"hidden":"links"}>
+                        <img src="./images/acount.png" alt="" />
+                        <a href="/all">MY CARS</a>
+                        <a href="/frequent">PAYMENTS</a>
+                        <a href="/cars">HELP</a>
+                        <a href="/bikes">ABOUT US</a>
+                        <a href="/hardware" id ="signol">Log Out</a>
+                    </div>
                 <div className="burger" id={tg ? "toggl" : ""} onClick={() => {
                     setTog(!tog);
                     setTg(!tg)
@@ -46,9 +54,9 @@ function Firstpage() {
                 </div>
                 <div className="cars">
                     {
-                        cars.map((car) => {
+                        cars.map((car,idx) => {
                             
-                            return <a href=""><Todo cars={car} key ={car.carnumber} /></a> 
+                            return <a href=""><Todo key ={idx}  cars={car} /></a> 
                         })
                     }
                 </div>

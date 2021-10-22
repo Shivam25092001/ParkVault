@@ -104,16 +104,24 @@ a{
   }
   .burger{
       margin-top: 2vh;
+      z-index: 15;
+  }
+  .links{
+      opacity: 0%;
+      transform: translateX(90%);
+      width: 10%;
+      margin-left: -10vw;
   }
   .burger div {
     background-color: #000000;
-    width: 25px;
+    width: 30px;
     height: 3px;
     margin: 5px;
     border-radius: 2px;
     transition: all 0.4s ease;
     margin-top: 1vh;
     margin-left: 70vw;
+    z-index: 15;
   }
   .addCar{
       height: 20vh;
@@ -144,4 +152,41 @@ a{
     border: none;
     margin-left: 20vw;
     margin-top: 3vh;
+}
+.burger{
+    z-index: 15;
+}
+.hidden{
+    opacity: 100%;
+    display: flex;
+flex-direction: column;
+ height: 100vh;
+ width: 70%;
+ top: 0rem;
+ right: 0;
+  position: fixed;
+  align-items: center;
+  z-index: 5;
+  backdrop-filter: blur(0.9rem);
+  background-color: rgba(255, 255, 255, 0.699);
+  overflow-x: hidden;
+  transform: translateX(0%);
+  justify-content: space-around;
+  transition: 0.5s all ease-in-out;
+}
+.hidden img{
+    height: 30vh;
+    margin-top: 10vh;
+    margin-bottom: -6vh;
+}
+.hidden a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: -10vh;
+}
+.hidden #signol{
+    margin-top: 8vh;
+    font-weight: 400;
 }

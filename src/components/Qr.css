@@ -1,0 +1,39 @@
+.qbodyn{
+ min-height: 90vh;
+ background-color: #E0E0E0;
+ margin-left: 3vw;
+ margin-right: 3vw;
+ margin-top: 3vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.exit p{
+    color: rgb(231, 14, 14);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+   
+    padding-top: 7vh;
+}
+.qgen img{
+ height: 40vh;
+ margin-top: 5vh;
+ border: 2px solid black;
+ border-radius: 5px;
+}
+.viewqr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65vw;
+    border-radius: 15px;
+    height: 5vh;
+    background-color: #C4C4C4;
+    margin-top: 9vh;
+}
+.viewqr p{
+    font-weight: 600;
+    align-self: center;
+    font-family: 'Roboto', sans-serif;
+}
