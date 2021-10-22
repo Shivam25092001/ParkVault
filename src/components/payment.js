@@ -23,7 +23,7 @@ function Payment() {
                 </div>
             </div>
             <div className="neechepayment">
-
+                
                 <div className="bill">
                     <p>Bill total : ₹230</p>
                 </div>

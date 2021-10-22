@@ -1,0 +1,66 @@
+.mainpage-logo{
+    position: absolute;
+    top: 30vh;
+    transform: translate(-50%, -50%);
+    left:50vw;
+    height: 20vh;
+}
+.Login{
+    height: 100vh;
+    overflow: hidden;
+}
+.login-bg{
+    max-height: 100vh;
+    width: 100vw;
+    opacity: 75%;
+}
+
+.login-box{
+    /* background-color: rgb(221, 221, 221); */
+    border-radius: 0.5rem;
+    border: none;
+    height: 25vh;
+    position: absolute;
+    width: 80vw;
+    top: 50vh;
+    left: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+    /* box-shadow: 0px 4px 8px grey; */
+    z-index: 5;
+    background: inherit;
+    backdrop-filter: blur(0.2rem);
+    background-color: rgba(177, 177, 177, 0.432);
+}
+.username, .password{
+    border: 2px solid rgb(185, 185, 185);
+    border-radius: 0.5rem;
+    background-color: #eeeeee;
+    box-shadow: 0px 0px 10px whitesmoke;
+    height: 10vh;
+    width: 70%;
+    margin-bottom: 2vh;
+}
+.login-submit{
+    background-color: #fa800f;
+    height: 5vh;
+    width: 30vw;
+    color: white;
+    margin-bottom: 2vh;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    border: none;
+    box-shadow: 0px 0px 8px whitesmoke;
+}
+.signup{
+    text-decoration: none;
+    position: relative;
+    left: 25vw;
+    margin-bottom: 3vh;
+}
+.signup a{
+    color: #44617B;
+    padding-bottom: 15px;
+}
