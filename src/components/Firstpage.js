@@ -3,8 +3,6 @@ import Todo from './Todo';
 import './First.css';
 import { Link } from 'react-router-dom';
 function Firstpage() {
-    const [tog, setTog] = useState(false);
-    const [tg, setTg] = useState(false);
     const[name,setname] = useState("");
     const[num,setnum] = useState("");
     const [cars, setcars] = useState([{

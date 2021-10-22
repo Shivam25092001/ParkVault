@@ -27,16 +27,6 @@ function App() {
         <Route path="/paymentmethod" component={Payment} />
       </Switch>
     </Router>
-      
-      {/* <Login/> */}
-      {/* <Mappage /> */}
-      {/* <Firstpage /> */}
-      {/* <Qr  /> */}
-      {/* <Mappage /> */}
-      {/* <Payment /> */}
-      {/* <Slotpreference /> */}
-      {/* <Gopark /> */}
-      
     </>
   );
 }
