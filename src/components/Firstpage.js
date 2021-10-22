@@ -1,34 +1,67 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
+import Todo from './Todo';
 import './First.css';
 function Firstpage() {
-    const [carA, setcarA] =useState(false);
-    const [carB, setcarB] =useState(false);
+    const [tog, setTog] = useState(false);
+    const [tg, setTg] = useState(false);
+    const[name,setname] = useState("");
+    const[num,setnum] = useState("");
+    const [cars, setcars] = useState([{
+        carname: "Hyundayi i10",
+        carnumber: "UP32KC2021"
+    }, {
+        carname: "TATA Nexon PU17",
+        carnumber: "UP71BN13021"
+    }
+    ])
+    const submit =(e)=>{
+        e.preventDefault();
+        if(!name||!num)
+        alert("Please Enter Valid Input")
+        else{
+       const mycar ={
+           carname:name,
+           carnumber:num
+       }
+       setcars([...cars,mycar]);
+       setname("");
+       setnum("");}
+    }
     return (
-       <div className="cont">
-           <div className="headerc"></div>
-           <div className="bodee">
-               <div className="drive">
-                   <h1>You are driving...</h1>
-               </div>
-               <div className="cars">
-                   <a href="#"><div className="car1" id ={carA ?"clicka":""} onClick={() => {setcarA(!carA)}}>
-                       <div className="carname"><p>Hyundai i10</p></div>
-                       <div className="carnmbr"><p>UP32KC4568</p></div>
-                   </div>
-                   </a>
-                  <a href="#">
-                   <div className="car2" id ={carB ?"clickb":""} onClick={() => {setcarB(!carB)}}>
-                       <div className="carname"><p>Tata Nexon</p></div>
-                       <div className="carnmbr"><p>UP32JK6900</p></div>
-                   </div>
-                   </a>
-               </div>
-               <div className="addAcar">
-                   <a href="">Add a car +</a>
-                 
-               </div>
-           </div>
-       </div>
+        <div className="cont">
+            <div className="headerc">
+                <img src="./images/logo3.png" alt="" />
+                <div className="burger" id={tg ? "toggl" : ""} onClick={() => {
+                    setTog(!tog);
+                    setTg(!tg)
+                }}>
+                    <div className="line-1"></div>
+                    <div className="line-2"></div>
+                    <div className="line-3"></div>
+                </div>
+            </div>
+            <div className="bodee">
+                <div className="drive">
+                    <h1>You are driving...</h1>
+                </div>
+                <div className="cars">
+                    {
+                        cars.map((car) => {
+                            
+                            return <a href=""><Todo cars={car} key ={car.carnumber} /></a> 
+                        })
+                    }
+                </div>
+                <div className="addCar">
+                    <form action=""onSubmit={submit} >
+                        <input type="text" placeholder ="Enter car name" value ={name} onChange={(e)=>setname(e.target.value)} />
+                        <input type="text" placeholder = "Enter car number" value={num} onChange={(e)=>setnum(e.target.value)}/>
+                        <br />
+                        <button type = "submit">Add Car +</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     )
 }
 

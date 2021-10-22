@@ -4,12 +4,13 @@
 }
 .headerc{
     height: 10vh;
+    display: flex;
 }
 .bodee{
     display: flex;
     flex-direction: column;
     background: #E0E0E0;
-    height: 90vh;
+    min-height: 90vh;
     margin-left: 4vw;
     margin-right: 4vw;
     
@@ -38,11 +39,13 @@ color: #000000;
     display: flex;
     flex-direction: column;
     margin-left: 10vw;
+   
 }
-.car1{
+.car{
     cursor: pointer;
 width: 70vw;
 height: 11vh;
+margin-bottom: 5vh;
 background: #C4C4C4;
 border-radius: 9px;
 display: flex;
@@ -50,7 +53,7 @@ flex-direction: column;
 text-decoration: none;
 
 }
-.car1 .carname p{
+.car .carname {
 width: 15.3rem;
 height: 1.68rem;
 font-family: 'Roboto', sans-serif;
@@ -67,7 +70,7 @@ text-decoration: none;
 a{
     text-decoration: none;
 }
-.car1 .carnmbr p{
+.car .carnmbr {
     width: 15.3rem;
     height: 1.68rem;
     font-family: 'Roboto', sans-serif;
@@ -81,64 +84,64 @@ a{
     color: #000000;
     text-decoration: none;
     }
-    .car2{
-        cursor: pointer;
-        width: 70vw;
-        height: 11vh;
-        background: #C4C4C4;
-        border-radius: 9px;
-        display: flex;
-        flex-direction: column;
-        margin-top: 6vh;
-        
-        }
-        .car2 .carname p{
-        width: 15.3rem;
-        height: 1.68rem;
-        font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 1.12rem;
-        line-height: 118.19%;
-        letter-spacing: 0.15em;
-        margin-top: 1.6vh;
-        margin-left: 3vw;
-        color: #000000;
-        }
-        .car2 .carnmbr p{
-            width: 15.3rem;
-            height: 1.68rem;
-            font-family: 'Roboto', sans-serif;
-            font-style: normal;
-            font-weight: bolder;
-            font-size: 1.12rem;
-            line-height: 118.19%;
-            letter-spacing: 0.15em;
-            margin-top: 1vh;
-            margin-left: 3vw;
-            color: #000000;
-            }
-            .addAcar{
-                display: flex;
-                margin-top: 5vh;
-                margin-left: 14vw;
-            }
-.addAcar a{
- width: 16.2rem;
-height: 1.8rem;
-text-decoration: none;
-font-family: 'Roboto', sans-serif;
-padding: 0;
-font-style: normal;
-font-weight: 300;
-font-size: 1.12rem;
-line-height: 118.19%;
-letter-spacing: 0.025em;
-color: #388000;
+    
+
+.headerc img{
+    margin-top: 1.5vh;
+    margin-left: 0.6rem;
+    margin-bottom: 2vh;
 }
-#clicka{
-    border-bottom: 5px solid #F1AE00;
+#toggl .line-1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  #toggl .line-2 {
+    width: 0px;
+    transform: translateX(25px);
+    background-color: #f7ac1d;
+  }
+  #toggl .line-3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  .burger{
+      margin-top: 2vh;
+  }
+  .burger div {
+    background-color: #000000;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    border-radius: 2px;
+    transition: all 0.4s ease;
+    margin-top: 1vh;
+    margin-left: 70vw;
+  }
+  .addCar{
+      height: 20vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+.addCar input{
+    font-family: 'Roboto', sans-serif;
+    height: 4vh;
+    width: 70vw;
+    margin-left: 10vw;
+    border-radius: 8px;
+    padding-left: 1vw;
+    border: none;
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 2vh;
+    background-color: #e0e0e011;
 }
-#clickb{
-    border-bottom: 5px solid #F1AE00;
+.addCar button{
+    background-color: #388000;
+    color: white;
+    height: 4vh;
+    width: 50vw;
+    border-radius: 5px;
+    border: none;
+    margin-left: 20vw;
+    margin-top: 3vh;
 }
