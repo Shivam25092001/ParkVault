@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 export default function Login() {
     return (
         <div className="Login">
-            <img claaName="login-bg" src="./images/login-bg.png" alt="" />
+            <img className="login-bg" src="./images/login-bg.png" alt="" />
             <img className="mainpage-logo" src="./images/logo.png" alt=""/>
             <div className="login-box">
                 <input className="username" type="text" name="username" id="username" placeholder="    Username"/>
@@ -13,9 +13,9 @@ export default function Login() {
                 <Link to="/map">
                     <button className="login-submit" type="submit">Login</button>
                 </Link>
-                <p>
+                
                     <div className="signup"><a href="#SignUp">Sign Up</a></div>               
-                </p>
+                
             </div>
         </div>
     )

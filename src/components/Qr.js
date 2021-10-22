@@ -4,7 +4,8 @@ import "./Qr.css"
 import { Link } from "react-router-dom"
 const Qr = ()=> {
     const[src,setSrc] =useState('');
-    const text ="HR32BGBADMASHIKASHETRA";
+    const[obj,setobj]=useState({carname:"Hyudayi Grand i10",carid:"UP32KY2548",userid:"Saksham089"});
+    const text = obj.toString();
     useEffect(() => {
     QRCode.toDataURL(text).then((data)=>{
         setSrc(data);
