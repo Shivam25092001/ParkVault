@@ -154,7 +154,7 @@ a{
     margin-top: 3vh;
 }
 .burger{
-    z-index: 15;
+    z-index: 75;
 }
 .hidden{
     opacity: 100%;
@@ -166,7 +166,7 @@ flex-direction: column;
  right: 0;
   position: fixed;
   align-items: center;
-  z-index: 5;
+  z-index: 50;
   backdrop-filter: blur(0.9rem);
   background-color: rgba(255, 255, 255, 0.699);
   overflow-x: hidden;

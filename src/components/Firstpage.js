@@ -29,7 +29,7 @@ function Firstpage() {
     }
     return (
         <div className="cont">
-            <div className="headerc">
+            {/* <div className="headerc">
                 <img src="./images/logo3.png" alt="" />
                 <div className={ tog?"hidden":"links"}>
                         <img src="./images/acount.png" alt="" />
@@ -47,7 +47,7 @@ function Firstpage() {
                     <div className="line-2"></div>
                     <div className="line-3"></div>
                 </div>
-            </div>
+            </div> */}
             <div className="bodee">
                 <div className="drive">
                     <h1>You are driving...</h1>
