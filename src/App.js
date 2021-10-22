@@ -23,15 +23,15 @@ function App() {
         <Route path="/slotpreference" component={Slotpreference} />
         <Route path="/gopark" component={Gopark} />
         <Route path="/parkingverified" component={Parkverified} />
-        <Route path="/exit" element={<Qr text ="HR32BGBADMASHIKASHETRA" />} />
-        {/* <Route path="/firstpage" component={Firstpage} /> */}
+        <Route path="/exit" component={Qr} />
+        <Route path="/paymentmethod" component={Payment} />
       </Switch>
     </Router>
       
       {/* <Login/> */}
       {/* <Mappage /> */}
       {/* <Firstpage /> */}
-      {/* <Qr text ="HR32BGBADMASHIKASHETRA" /> */}
+      {/* <Qr  /> */}
       {/* <Mappage /> */}
       {/* <Payment /> */}
       {/* <Slotpreference /> */}

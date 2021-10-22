@@ -38,3 +38,8 @@ margin-top: 6vh;
     margin-top: 5vh;
     background-color: red;
 }
+.black{
+    background-color: black;
+    margin-top: 5vh;
+    color: white;
+}
