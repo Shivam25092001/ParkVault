@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import './Slotpreference.css'
 import Slotsection from '../components/Slotsection'
+import { Link } from 'react-router-dom';
 
 export default function Slotpreference() {
     const [sssel, toggless] = useState(false);
@@ -18,7 +19,9 @@ export default function Slotpreference() {
 
             <button className={`ss-button ${sssel?'ss-button-active':''}`} onClick={selectpressed}>Select Slot</button>
             <input type="text" name="time" id="time" placeholder="  Enter expected time"/>
-            <button className="pref-submit" type="submit">Submit</button>
+            <Link to="/gopark">
+                <button className="pref-submit" type="submit">Submit</button>
+            </Link>
         </div>
     )
 }

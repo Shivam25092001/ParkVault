@@ -31,3 +31,10 @@ margin-top: 6vh;
     margin-top: 3vh;
     margin-left: 67vw;
 }
+#parked{
+    color: rgb(82, 121, 4);
+}
+.red{
+    margin-top: 5vh;
+    background-color: red;
+}
