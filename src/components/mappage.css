@@ -31,8 +31,13 @@
     border: none;
     width: 90%;
     align-self: center;
+<<<<<<< Updated upstream
     margin-left: 2.5vh;
     margin-top: 2vh;
+=======
+    cursor: pointer;
+    margin: 2vh 0vh;
+>>>>>>> Stashed changes
     border-radius: 0.5rem;
     color: white;
     background-color: #ffa800;

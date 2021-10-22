@@ -32,7 +32,7 @@ function App() {
       {/* <Mappage /> */}
       {/* <Firstpage /> */}
       {/* <Qr text ="HR32BGBADMASHIKASHETRA" /> */}
-      {/* <Mappage /> */}
+      <Mappage />
       {/* <Payment /> */}
       {/* <Slotpreference /> */}
       {/* <Gopark /> */}
